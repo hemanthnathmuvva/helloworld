@@ -2,9 +2,16 @@
 <html>
 <body>
 
-<h1>HTML Links</h1>
+<h1>The button formtarget attribute</h1>
 
-<p><a href="https://www.Vignan university.com/">Visit to know about courses</a></p>
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="submit">Submit</button>
+  <button type="submit" formtarget="_blank">Submit to a new window/tab</button>
+</form>
 
 </body>
 </html>
