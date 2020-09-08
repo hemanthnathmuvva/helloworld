@@ -20,7 +20,7 @@ function myFunction() {
 }
 functiom myunction(){
  alert("lost focus");
-}
+}   
 </script>
 
 </body>
